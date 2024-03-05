@@ -47,3 +47,22 @@
 
 // const result = multiplyByIndex(numberArr);
 // console.log(result);
+
+////////////////////////////////////////////////////////////////////////
+
+//ЗАДАЧА No5 | напишите функцию, которая 
+//которая принимает на вход массив чисел 
+//и возвращает количество отрицательных 
+//элементов в массиве 
+//const numbersArr = [4,-7,2,5]
+//function filterFunction(numArray){
+//  let negativeNumQuantity = 0;
+//for(let i = 0; i < numArray.length; i+=1){
+//  if(numArray[i] < 0){
+//    negativeNumQuantity+=1
+//  }
+//}
+//  return negativeNumQuantity;
+//}
+//const result = filterFunction(numbersArr);
+//console.log(result)
