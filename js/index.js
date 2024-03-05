@@ -17,6 +17,32 @@
 
 /////////////////////////////////////////////////////////////////////////
 
+//ЗАДАЧА No2 | создайте функцию, которая принимает на вход двумерный массив
+//и возвращает новый массив, содержащий только уникальные элементы из всех подмассивов.
+
+// const twoDimensionalArr = [
+//   [1, 4, 5, 1],
+//   [8, 9, 12, 9],
+//   [5, 7, 3, 6],
+// ];
+
+// function filterFunction(numArray) {
+//   let newArr = [];
+//   for (let i = 0; i < numArray.length; i += 1) {
+//     for (let count = 0; count < numArray[i].length; count += 1) {
+//       if (newArr.includes(numArray[i][count]) === false) {
+//         newArr.push(numArray[i][count]);
+//       }
+//     }
+//   }
+//   return newArr;
+// }
+
+// const result = filterFunction(twoDimensionalArr);
+// console.log(result);
+
+/////////////////////////////////////////////////////////////////////////
+
 // ЗАДАЧА No3 | реализуйте функцию, которая принимает на вход число и возвращает
 // массив всех делителей этого числа.
 // let number = 50;
