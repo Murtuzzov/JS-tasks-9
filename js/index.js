@@ -92,3 +92,49 @@
 //}
 //const result = filterFunction(numbersArr);
 //console.log(result)
+
+/////////////////////////////////////////////////////////////////////////////
+
+//ЗАДАЧА No6 | Реализуйте функцию для нахождения максимального элемента в каждом подмассиве двумерного массива.
+
+// const numArray = [
+//   [5, 4, 3, 12, 45],
+//   [4, 81, 26, 85],
+//   [2, 6, 4, 81, 28],
+// ];
+
+// function filterFunction(array) {
+//   let highNum = 0;
+//   for (let i = 0; i < array.length; i += 1) {
+//     for (let count = 0; count < numArray[i].length; count += 1) {
+//       if (numArray[i][count] > highNum) {
+//         highNum = numArray[i][count];
+//       }
+//     }
+//   }
+//   return highNum;
+// }
+
+// const result = filterFunction(numArray);
+// console.log(result);
+
+//////////////////////////////////////////////////////////////////
+
+//ЗАДАЧА No7 | создайте функцию, которая принимает на вход строку и возвращает новую строку,
+//в которой все гласные буквы заменены на звездочки.
+// let someString = "Hello, World!";
+// function filterFunction(string) {
+//   let vowels = ["a", "e", "i", "o", "u", "y"];
+//   let newStr = "";
+//   for (let i = 0; i < string.length; i += 1) {
+//     if (vowels.includes(string[i].toLowerCase())) {
+//       newStr += "*";
+//     } else {
+//       newStr += string[i];
+//     }
+//   }
+//   return newStr;
+// }
+
+// const result = filterFunction(someString);
+// console.log(result);
